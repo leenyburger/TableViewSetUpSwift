@@ -9,7 +9,7 @@
 import UIKit
 
 class PlacesViewController: UITableViewController {
-
+    
     var placesToVisit = ["Rome", "Florence", "Venice"]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +30,7 @@ class PlacesViewController: UITableViewController {
         cell.textLabel?.text = placesToVisit[indexPath.row]
         return cell
     }
+    
 
 
 }
